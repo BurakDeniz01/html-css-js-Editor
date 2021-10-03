@@ -1,4 +1,4 @@
-# hello-world
+# HTML CSS JS Editor
 
 ## Project setup
 ```
