@@ -11,6 +11,7 @@
           v-model="savedHistory"
           placeholder="History"
           clearable
+          no-data-text="No Data "
         >
           <el-option
             v-for="item in history"
@@ -83,7 +84,7 @@ function runJS() {
 }
 
 export default {
-  name: "asd",
+  name: "Editor",
   props: {
     msg: String,
   },
